@@ -19,12 +19,6 @@ import com.ucsal.pokesal.pokesals.SquirtSal;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
-/**
- * Suite de testes unitarios exigida na Fase 02 do projeto. Os 5 testes
- * abaixo cobrem os cenarios obrigatorios de regras de negocio; os 2
- * testes referentes aos Requisitos Autorais devem ser adicionados pela
- * propria equipe (sem uso de IA), apos a implementacao dessas regras.
- */
 class BatalhaTest {
 
   /** 1. Validacao dos multiplicadores de dano da matriz elemental. */
@@ -97,19 +91,4 @@ class BatalhaTest {
     pokeSal.curar(999999);
     assertEquals(pokeSal.getHpMaximo(), pokeSal.getHpAtual());
   }
-
-  // ------------------------------------------------------------------
-  // TODO_REQUISITO_AUTORAL (Testes obrigatorios - Fase 02, item 6)
-  //
-  // A equipe deve implementar aqui pelo menos 2 testes JUnit
-  // relacionados aos 3 novos requisitos autorais criados sem uso de
-  // Inteligencia Artificial, conforme exigido no enunciado.
-  //
-  // Exemplo de assinatura sugerida (a definir pela equipe):
-  // @Test
-  // void testRequisitoAutoral1() { ... }
-  //
-  // @Test
-  // void testRequisitoAutoral2() { ... }
-  // ------------------------------------------------------------------
 }
